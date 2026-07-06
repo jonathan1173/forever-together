@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  /* Al ponerlas dentro de @theme, Tailwind v4 crea automáticamente */
+  /* las clases 'font-italics' y 'font-letter' */
+  --font-italics: "Great Vibes", cursive;
+  --font-letter: "Yanone Kaffeesatz", sans-serif;
+}
